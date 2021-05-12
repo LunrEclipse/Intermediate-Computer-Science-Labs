@@ -1,0 +1,1 @@
+// average.cpp#include <iostream.h>#include <fstream.h>#include <iomanip.h>main (){	ifstream inFile("c:\\ap98\\numbers.txt");	int  number,count=0;	long total=0;	float avg;	while (inFile >> number)	{		total += number;		++count;	}	avg = float(total)/count;	cout << setiosflags (ios::fixed) << setprecision (2);	cout << "Average = " << avg << endl;	return 0;}

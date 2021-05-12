@@ -1,0 +1,1 @@
+//  worksheet 10.1 problem//  losing air out of bike tire#include <iostream.h>void findAnswer (){	int  seconds = 0;	double  air = 1.0;	while (air > 0.50)	{		seconds++;		air *= 0.97;	}	cout << "The number of seconds = " << seconds << endl;}main(){	findAnswer();	return 0;}	

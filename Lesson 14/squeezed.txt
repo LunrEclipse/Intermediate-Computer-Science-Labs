@@ -1,0 +1,12 @@
+ 0 // A short example file
+ 0
+ 0 float singleTax (float income)
+ 0 {
+ 3 if (income <= 20350.0)
+ 6 return (income * 0.15);
+ 3 else
+ 6 if (income <= 49300.0)
+ 9 return (3052.50 + (0.28 * (income - 20350.0)));
+ 6 else
+ 9 return (11158.50 + (0.31 * (income - 49300.0)));
+ 0 }

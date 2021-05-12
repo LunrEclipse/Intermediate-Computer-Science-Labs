@@ -1,0 +1,1 @@
+// frog.h#ifndef _FROG_H#define _FROG_H#include <dice.h>class frog{	public:		frog();		int getPosition() const;		int getSteps() const;		void takeStep();	private:		int myPosition;		int mySteps;		dice myDice;};#include "frog.cpp"#endif

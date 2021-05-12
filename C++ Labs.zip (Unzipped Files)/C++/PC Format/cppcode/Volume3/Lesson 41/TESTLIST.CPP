@@ -1,0 +1,1 @@
+#include <iostream.h>#include <aplist.h>main(){	list<int> t1;	list<int> t2;	int k,num;		for (k=1; k<=5; k++)		t1.insert(k);	cout << "t1 = ";	t1.print();	cout << endl;	t2 = t1;	cout << "t2 = ";	t2.print();	return 0;}

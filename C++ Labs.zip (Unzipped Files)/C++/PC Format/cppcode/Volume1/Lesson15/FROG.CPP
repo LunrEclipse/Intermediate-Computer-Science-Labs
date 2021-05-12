@@ -1,0 +1,1 @@
+// frog.cppfrog::frog() : myPosition(0), mySteps(0), myDice(2){	// all private variables initialized in initializer list}int frog::getPosition() const{	return myPosition;}int frog::getSteps() const{	return mySteps;}void frog::takeStep(){	if (myDice.roll() == 1)		// move left, negative on x-axis		myPosition--;	else		myPosition++;	mySteps++;}

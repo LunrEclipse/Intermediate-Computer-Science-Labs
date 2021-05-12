@@ -1,0 +1,1 @@
+// frog1.cpp#include <iostream.h>#include <frog.h>main(){	int numSteps, k;	frog f1;  		cout << "Enter # of steps ---> ";	cin >> numSteps;	for (k=0; k < numSteps; k++)	{		f1.takeStep();	}	cout << "final position = " << f1.getPosition() << endl;	return 0;}

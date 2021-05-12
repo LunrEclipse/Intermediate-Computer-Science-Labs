@@ -1,0 +1,1 @@
+// frog2.cpp#include <iostream.h>#include <frog.h>main(){	int distance;	frog f1;	cout << "Enter max distance from origin ---> ";	cin >> distance;	while (-distance < f1.getPosition() && f1.getPosition() < distance)		f1.takeStep();	cout << "position of frog = " << f1.getPosition() << endl;	cout << "number of steps = " << f1.getSteps() << endl;	return 0;}
